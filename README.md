@@ -1,2 +1,2 @@
 # IPLBot-RASA
-Como construir e fazer deploy de um Chatbot usando Rasa (utilizando estudo de caso IPL)
+Como construir e fazer deploy de um Chatbot utilizando Rasa (utilizando estudo de caso IPL)
