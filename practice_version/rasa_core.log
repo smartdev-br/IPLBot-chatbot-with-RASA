@@ -396,3 +396,6 @@ Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
 Rasa Core server is up and running on http://localhost:5002
 Received retry #1 request from slack due to http_timeout
 Received retry #2 request from slack due to http_timeout
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
