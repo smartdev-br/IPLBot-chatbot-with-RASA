@@ -14,6 +14,15 @@ help:
 	@echo "    cmdline"
 	@echo "       This will load the assistant in your terminal for you to chat."
 
+	@echo "    graph"
+	@echo "       This will generates a graph based on stories generated"
+	@echo "    ngrok-slack"
+	@echo "       This will starts ngrok on action-server port (slack api connection)"
+	@echo "    deploy-rasa-chatbot"
+	@echo "       This will deploy Rasa chatbot"
+	@echo "    ngrok-rasa"
+	@echo "       This will starts ngrok on Rasa server port"
+
 
 clean:
 	find . -name '*.pyc' -exec rm -f {} +
