@@ -4,6 +4,17 @@ This is the **Practice Version** which means that you will find much of the code
 
 ## Setup and installation
 
+**Important**
+In the complete instalation, you had pre-configurated the comand:
+```
+conda create -n rasa python=3.6
+conda activate rasa
+```
+If yes, then run just the command:  (if you do not this, may cause error that RASA was not found)
+```
+conda activate rasa
+```
+
 If you haven’t installed Rasa NLU and Rasa Core yet, you can do it by navigating to the project directory and running:  
 ```
 pip install -r requirements.txt
