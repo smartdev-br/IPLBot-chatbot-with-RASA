@@ -77,9 +77,13 @@ make action-server
 ```
 ngrok http 5055
 ```
+* Instead, you can use:
+```
+make ngrok-slack
+```
 
 This will give you an output like the following:
-![](../images/ngrok_action.png)
+![](../images/ngrok1.png)
 
 4. Copy the highlighted url in the above image into your **endpoints.yml** file:
 
@@ -93,6 +97,10 @@ action_endpoint: "your_url_here/webhook"
 ```
 python -m rasa_core.run -d models/current/dialogue -u models/current/nlu --port 5002 --connector slack --credentials slack_credentials.yml --endpoints endpoints.yml
 ```
+* Instead, you can use:
+```
+make deploy-rasa-chatbot
+```
 
 This will start the server at port 5002.
 
@@ -100,6 +108,10 @@ This will start the server at port 5002.
 
 ```
 ngrok http 5002
+```
+* Instead, you can use:
+```
+make ngrok-rasa
 ```
 
 7. Take the above url and paste it into the **Events Subscription** page of your slack app in the following format:
