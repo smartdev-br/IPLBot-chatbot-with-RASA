@@ -1,0 +1,424 @@
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Failed to run custom action 'action_match_news'. Couldn't connect to the server at 'http://localhost:5055'. Is the server running? Error: HTTPConnectionPool(host='localhost', port=5055): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fee2806eac8>: Failed to establish a new connection: [Errno 111] Connection refused',))
+Encountered an exception while running action 'action_match_news'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Failed to run custom action 'action_match_news'. Action server responded with a non 200 status code of 404. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 404 Client Error: Not Found for url: http://localhost:5055/
+Encountered an exception while running action 'action_match_news'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Failed to run custom action 'action_match_news'. Couldn't connect to the server at 'http://a914d097.ngrok.io:5055/webhooks/slack/webhook'. Is the server running? Error: HTTPConnectionPool(host='a914d097.ngrok.io', port=5055): Max retries exceeded with url: /webhooks/slack/webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe4587e1240>: Failed to establish a new connection: [Errno 101] Network is unreachable',))
+Encountered an exception while running action 'action_match_news'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Received retry #1 request from slack due to http_timeout
+Received retry #2 request from slack due to http_timeout
+Received retry #1 request from slack due to http_timeout
+Received retry #2 request from slack due to http_timeout
+Received retry #3 request from slack due to http_timeout
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Failed to run custom action 'action_match_news'. Couldn't connect to the server at 'http://a914d097.ngrok.io:5055/webhooks/slack/webhook'. Is the server running? Error: HTTPConnectionPool(host='a914d097.ngrok.io', port=5055): Max retries exceeded with url: /webhooks/slack/webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fac900b0b38>: Failed to establish a new connection: [Errno 101] Network is unreachable',))
+Encountered an exception while running action 'action_match_news'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Received retry #1 request from slack due to http_timeout
+Received retry #2 request from slack due to http_timeout
+Received retry #1 request from slack due to http_timeout
+Received retry #1 request from slack due to http_timeout
+Received retry #1 request from slack due to http_timeout
+Received retry #1 request from slack due to http_timeout
+Received retry #2 request from slack due to http_timeout
+Received retry #2 request from slack due to http_timeout
+Received retry #2 request from slack due to http_timeout
+Received retry #2 request from slack due to http_timeout
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Received retry #3 request from slack due to http_timeout
+Failed to run custom action 'action_match_news'. Couldn't connect to the server at 'http://a914d097.ngrok.io:5055/webhooks/slack/webhook'. Is the server running? Error: HTTPConnectionPool(host='a914d097.ngrok.io', port=5055): Max retries exceeded with url: /webhooks/slack/webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb0fd0c7438>: Failed to establish a new connection: [Errno 101] Network is unreachable',))
+Encountered an exception while running action 'action_match_news'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Received retry #1 request from slack due to http_timeout
+Received retry #2 request from slack due to http_timeout
+Received retry #3 request from slack due to http_timeout
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Received retry #1 request from slack due to http_timeout
+Failed to run custom action 'action_match_news'. Couldn't connect to the server at 'http://69c2b336.ngrok.io:5055/webhooks/slack/webhook'. Is the server running? Error: HTTPConnectionPool(host='69c2b336.ngrok.io', port=5055): Max retries exceeded with url: /webhooks/slack/webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7faca0bc6400>: Failed to establish a new connection: [Errno 101] Network is unreachable',))
+Encountered an exception while running action 'action_match_news'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Received retry #1 request from slack due to http_timeout
+Received retry #2 request from slack due to http_timeout
+Received retry #3 request from slack due to http_timeout
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Failed to run custom action 'action_match_news'. Couldn't connect to the server at 'http://69c2b336.ngrok.io:5055/webhooks/slack/webhook'. Is the server running? Error: HTTPConnectionPool(host='69c2b336.ngrok.io', port=5055): Max retries exceeded with url: /webhooks/slack/webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f1d53809d68>: Failed to establish a new connection: [Errno 101] Network is unreachable',))
+Encountered an exception while running action 'action_match_news'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Received retry #1 request from slack due to http_timeout
+Received retry #2 request from slack due to http_timeout
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Failed to run custom action 'action_match_news'. Couldn't connect to the server at 'http://69c2b336.ngrok.io:5055/webhook'. Is the server running? Error: HTTPConnectionPool(host='69c2b336.ngrok.io', port=5055): Max retries exceeded with url: /webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9ba2f49780>: Failed to establish a new connection: [Errno 101] Network is unreachable',))
+Encountered an exception while running action 'action_match_news'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Received retry #1 request from slack due to http_timeout
+Received retry #2 request from slack due to http_timeout
+Received retry #3 request from slack due to http_timeout
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Received retry #3 request from slack due to http_timeout
+Failed to run custom action 'action_match_news'. Couldn't connect to the server at 'https://69c2b336.ngrok.io:5055/webhook'. Is the server running? Error: HTTPSConnectionPool(host='69c2b336.ngrok.io', port=5055): Max retries exceeded with url: /webhook (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f10d81bc710>: Failed to establish a new connection: [Errno 101] Network is unreachable',))
+Encountered an exception while running action 'action_match_news'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Received retry #1 request from slack due to http_timeout
+Received retry #2 request from slack due to http_timeout
+Received retry #3 request from slack due to http_timeout
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Failed to run custom action 'action_match_news'. Couldn't connect to the server at 'https://69c2b336.ngrok.io:5055'. Is the server running? Error: HTTPSConnectionPool(host='69c2b336.ngrok.io', port=5055): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f57100af6d8>: Failed to establish a new connection: [Errno 101] Network is unreachable',))
+Encountered an exception while running action 'action_match_news'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Received retry #1 request from slack due to http_timeout
+Received retry #2 request from slack due to http_timeout
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Failed to run custom action 'action_match_news'. Couldn't connect to the server at 'http://69c2b336.ngrok.io:5055'. Is the server running? Error: HTTPConnectionPool(host='69c2b336.ngrok.io', port=5055): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff2edc07b00>: Failed to establish a new connection: [Errno 101] Network is unreachable',))
+Encountered an exception while running action 'action_match_news'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Received retry #1 request from slack due to http_timeout
+Received retry #2 request from slack due to http_timeout
+Received retry #3 request from slack due to http_timeout
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Failed to run custom action 'action_match_news'. Couldn't connect to the server at 'http://69c2b336.ngrok.io:5055/webhook'. Is the server running? Error: HTTPConnectionPool(host='69c2b336.ngrok.io', port=5055): Max retries exceeded with url: /webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fde8a448ba8>: Failed to establish a new connection: [Errno 101] Network is unreachable',))
+Encountered an exception while running action 'action_match_news'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Received retry #1 request from slack due to http_timeout
+Received retry #2 request from slack due to http_timeout
+Received retry #3 request from slack due to http_timeout
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Failed to run custom action 'action_match_news'. Couldn't connect to the server at 'http://69c2b336.ngrok.io:5055/webhooks/slack/webhook'. Is the server running? Error: HTTPConnectionPool(host='69c2b336.ngrok.io', port=5055): Max retries exceeded with url: /webhooks/slack/webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f56094bec18>: Failed to establish a new connection: [Errno 101] Network is unreachable',))
+Encountered an exception while running action 'action_match_news'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Received retry #1 request from slack due to http_timeout
+Received retry #3 request from slack due to http_timeout
+Received retry #2 request from slack due to http_timeout
+Received retry #3 request from slack due to http_timeout
+Received retry #1 request from slack due to http_timeout
+Received retry #2 request from slack due to http_timeout
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Failed to run custom action 'action_match_news'. Couldn't connect to the server at 'http://a914d097.ngrok.io:5055/webhook'. Is the server running? Error: HTTPConnectionPool(host='a914d097.ngrok.io', port=5055): Max retries exceeded with url: /webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fba69989d30>: Failed to establish a new connection: [Errno 101] Network is unreachable',))
+Encountered an exception while running action 'action_match_news'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Received retry #1 request from slack due to http_timeout
+Received retry #2 request from slack due to http_timeout
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Failed to run custom action 'action_match_news'. Couldn't connect to the server at 'http://2681fae0.ngrok.io:5055/webhook'. Is the server running? Error: HTTPConnectionPool(host='2681fae0.ngrok.io', port=5055): Max retries exceeded with url: /webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f1fcd747748>: Failed to establish a new connection: [Errno 101] Network is unreachable',))
+Encountered an exception while running action 'action_match_news'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Received retry #1 request from slack due to http_timeout
+Received retry #3 request from slack due to http_timeout
+Received retry #2 request from slack due to http_timeout
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Failed to run custom action 'action_match_news'. Couldn't connect to the server at 'http://2681fae0.ngrok.io:5055/webhook'. Is the server running? Error: HTTPConnectionPool(host='2681fae0.ngrok.io', port=5055): Max retries exceeded with url: /webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f5ce49c4fd0>: Failed to establish a new connection: [Errno 101] Network is unreachable',))
+Encountered an exception while running action 'action_match_news'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Received retry #1 request from slack due to http_timeout
+Received retry #2 request from slack due to http_timeout
+Received retry #3 request from slack due to http_timeout
+Received retry #3 request from slack due to http_timeout
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Failed to run custom action 'action_match_news'. Couldn't connect to the server at 'http://a63612db.ngrok.io:5055/webhook'. Is the server running? Error: HTTPConnectionPool(host='a63612db.ngrok.io', port=5055): Max retries exceeded with url: /webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f121b12e630>: Failed to establish a new connection: [Errno 101] Network is unreachable',))
+Encountered an exception while running action 'action_match_news'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Received retry #1 request from slack due to http_timeout
+Received retry #2 request from slack due to http_timeout
+Received retry #1 request from slack due to http_timeout
+Received retry #2 request from slack due to http_timeout
+Received retry #3 request from slack due to http_timeout
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Failed to run custom action 'action_match_news'. Couldn't connect to the server at 'http://a63612db.ngrok.io:5055/webhook'. Is the server running? Error: HTTPConnectionPool(host='a63612db.ngrok.io', port=5055): Max retries exceeded with url: /webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa756bc87b8>: Failed to establish a new connection: [Errno 101] Network is unreachable',))
+Encountered an exception while running action 'action_match_news'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Received retry #1 request from slack due to http_timeout
+Received retry #2 request from slack due to http_timeout
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Failed to run custom action 'action_match_news'. Couldn't connect to the server at 'http://a63612db.ngrok.io:5055/webhook'. Is the server running? Error: HTTPConnectionPool(host='a63612db.ngrok.io', port=5055): Max retries exceeded with url: /webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fd0c67c85c0>: Failed to establish a new connection: [Errno 101] Network is unreachable',))
+Encountered an exception while running action 'action_match_news'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Received retry #1 request from slack due to http_timeout
+Received retry #2 request from slack due to http_timeout
+Received retry #3 request from slack due to http_timeout
+Received retry #3 request from slack due to http_timeout
+Received retry #1 request from slack due to http_timeout
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Failed to run custom action 'action_match_news'. Couldn't connect to the server at 'http://482ec2a9.ngrok.io:5055/webhook'. Is the server running? Error: HTTPConnectionPool(host='482ec2a9.ngrok.io', port=5055): Max retries exceeded with url: /webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f47801b0d30>: Failed to establish a new connection: [Errno 101] Network is unreachable',))
+Encountered an exception while running action 'action_match_news'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Received retry #1 request from slack due to http_timeout
+Received retry #2 request from slack due to http_timeout
+Received retry #3 request from slack due to http_timeout
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Failed to run custom action 'action_match_news'. Couldn't connect to the server at 'http://482ec2a9.ngrok.io:5055/webhook'. Is the server running? Error: HTTPConnectionPool(host='482ec2a9.ngrok.io', port=5055): Max retries exceeded with url: /webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f2989307b38>: Failed to establish a new connection: [Errno 101] Network is unreachable',))
+Encountered an exception while running action 'action_match_news'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Received retry #1 request from slack due to http_timeout
+Received retry #2 request from slack due to http_timeout
+Received retry #3 request from slack due to http_timeout
+Received retry #3 request from slack due to http_timeout
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Failed to run custom action 'action_match_news'. Couldn't connect to the server at 'http://482ec2a9.ngrok.io:5055/webhook'. Is the server running? Error: HTTPConnectionPool(host='482ec2a9.ngrok.io', port=5055): Max retries exceeded with url: /webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fee52bc7b38>: Failed to establish a new connection: [Errno 101] Network is unreachable',))
+Encountered an exception while running action 'action_match_news'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Received retry #1 request from slack due to http_timeout
+Received retry #2 request from slack due to http_timeout
+Received retry #3 request from slack due to http_timeout
+Failed to run custom action 'action_match_news'. Couldn't connect to the server at 'http://482ec2a9.ngrok.io:5055/webhook'. Is the server running? Error: HTTPConnectionPool(host='482ec2a9.ngrok.io', port=5055): Max retries exceeded with url: /webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fee52bc7978>: Failed to establish a new connection: [Errno 101] Network is unreachable',))
+Encountered an exception while running action 'action_match_news'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Received retry #1 request from slack due to http_timeout
+Received retry #2 request from slack due to http_timeout
+Received retry #3 request from slack due to http_timeout
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Failed to run custom action 'action_match_news'. Couldn't connect to the server at 'http://b4ccb924.ngrok.io:5055'. Is the server running? Error: HTTPConnectionPool(host='b4ccb924.ngrok.io', port=5055): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0d3a3883c8>: Failed to establish a new connection: [Errno 101] Network is unreachable',))
+Encountered an exception while running action 'action_match_news'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Received retry #1 request from slack due to http_timeout
+Received retry #2 request from slack due to http_timeout
+Received retry #3 request from slack due to http_timeout
+Received retry #1 request from slack due to http_timeout
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Failed to run custom action 'action_match_news'. Couldn't connect to the server at 'http://e3d2d905.ngrok.io:5055/webhook'. Is the server running? Error: HTTPConnectionPool(host='e3d2d905.ngrok.io', port=5055): Max retries exceeded with url: /webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f7ce01afda0>: Failed to establish a new connection: [Errno 101] Network is unreachable',))
+Encountered an exception while running action 'action_match_news'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Received retry #1 request from slack due to http_timeout
+Received retry #2 request from slack due to http_timeout
+Received retry #3 request from slack due to http_timeout
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Failed to run custom action 'action_match_news'. Couldn't connect to the server at 'http://e3d2d905.ngrok.io:5055'. Is the server running? Error: HTTPConnectionPool(host='e3d2d905.ngrok.io', port=5055): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f7e0c1b0b70>: Failed to establish a new connection: [Errno 101] Network is unreachable',))
+Encountered an exception while running action 'action_match_news'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Received retry #1 request from slack due to http_timeout
+Received retry #2 request from slack due to http_timeout
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Received retry #1 request from slack due to http_timeout
+Received retry #2 request from slack due to http_timeout
+Failed to run custom action 'action_match_news'. Couldn't connect to the server at 'http://e3d2d905.ngrok.io:5055/webhook'. Is the server running? Error: HTTPConnectionPool(host='e3d2d905.ngrok.io', port=5055): Max retries exceeded with url: /webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fab15b07860>: Failed to establish a new connection: [Errno 101] Network is unreachable',))
+Encountered an exception while running action 'action_match_news'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Received retry #1 request from slack due to http_timeout
+Received retry #2 request from slack due to http_timeout
+Received retry #3 request from slack due to http_timeout
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Failed to run custom action 'action_match_news'. Couldn't connect to the server at 'http://e3d2d905.ngrok.io:5055/webhooks/slack/webhook'. Is the server running? Error: HTTPConnectionPool(host='e3d2d905.ngrok.io', port=5055): Max retries exceeded with url: /webhooks/slack/webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f7cb6808c88>: Failed to establish a new connection: [Errno 101] Network is unreachable',))
+Encountered an exception while running action 'action_match_news'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Received retry #1 request from slack due to http_timeout
+Received retry #2 request from slack due to http_timeout
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Failed to run custom action 'action_match_news'. Couldn't connect to the server at 'https://e3d2d905.ngrok.io:5055/webhook'. Is the server running? Error: HTTPSConnectionPool(host='e3d2d905.ngrok.io', port=5055): Max retries exceeded with url: /webhook (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f6f299876d8>: Failed to establish a new connection: [Errno 101] Network is unreachable',))
+Encountered an exception while running action 'action_match_news'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Received retry #1 request from slack due to http_timeout
+Received retry #3 request from slack due to http_timeout
+Received retry #2 request from slack due to http_timeout
+Received retry #3 request from slack due to http_timeout
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Failed to run custom action 'action_match_news'. Couldn't connect to the server at 'http://e3d2d905.ngrok.io:5055/webhook'. Is the server running? Error: HTTPConnectionPool(host='e3d2d905.ngrok.io', port=5055): Max retries exceeded with url: /webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fca197c1390>: Failed to establish a new connection: [Errno 101] Network is unreachable',))
+Encountered an exception while running action 'action_match_news'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Failed to run custom action 'action_match_news'. Action server responded with a non 200 status code of 404. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 404 Client Error: Not Found for url: http://localhost:5055/
+Encountered an exception while running action 'action_match_news'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to run custom action 'action_match_news'. Action server responded with a non 200 status code of 404. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 404 Client Error: Not Found for url: http://localhost:5055/
+Encountered an exception while running action 'action_match_news'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+From /home/claudio/miniconda3/envs/rasa/lib/python3.6/site-packages/tensorflow_core/python/ops/init_ops.py:97: calling GlorotUniform.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+From /home/claudio/miniconda3/envs/rasa/lib/python3.6/site-packages/tensorflow_core/python/ops/init_ops.py:97: calling Orthogonal.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+From /home/claudio/miniconda3/envs/rasa/lib/python3.6/site-packages/tensorflow_core/python/ops/init_ops.py:97: calling Zeros.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+From /home/claudio/miniconda3/envs/rasa/lib/python3.6/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1630: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+From /home/claudio/miniconda3/envs/rasa/lib/python3.6/site-packages/tensorflow_core/python/keras/backend.py:3994: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Rasa process starting
+Rasa process starting
+Rasa process starting
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+From /home/claudio/miniconda3/envs/rasa/lib/python3.6/site-packages/tensorflow_core/python/ops/init_ops.py:97: calling GlorotUniform.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+From /home/claudio/miniconda3/envs/rasa/lib/python3.6/site-packages/tensorflow_core/python/ops/init_ops.py:97: calling Orthogonal.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+From /home/claudio/miniconda3/envs/rasa/lib/python3.6/site-packages/tensorflow_core/python/ops/init_ops.py:97: calling Zeros.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+From /home/claudio/miniconda3/envs/rasa/lib/python3.6/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1630: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+From /home/claudio/miniconda3/envs/rasa/lib/python3.6/site-packages/tensorflow_core/python/keras/backend.py:3994: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Failed to run custom action 'action_match_news'. Couldn't connect to the server at 'http://localhost:5055/webhook'. Is the server running? Error: HTTPConnectionPool(host='localhost', port=5055): Max retries exceeded with url: /webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fda6475ee48>: Failed to establish a new connection: [Errno 111] Connection refused',))
+Encountered an exception while running action 'action_match_news'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to run custom action 'action_match_news'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_match_news'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Failed to run custom action 'action_match_news'. Couldn't connect to the server at 'http://e3d2d905.ngrok.io:5055/webhook'. Is the server running? Error: HTTPConnectionPool(host='e3d2d905.ngrok.io', port=5055): Max retries exceeded with url: /webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb836d7ac18>: Failed to establish a new connection: [Errno 101] Network is unreachable',))
+Encountered an exception while running action 'action_match_news'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Received retry #1 request from slack due to http_timeout
+Received retry #2 request from slack due to http_timeout
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Received retry #1 request from slack due to http_timeout
+Received retry #3 request from slack due to http_timeout
+Received retry #1 request from slack due to http_timeout
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Received retry #1 request from slack due to http_timeout
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Received retry #1 request from slack due to http_timeout
+Received retry #1 request from slack due to http_timeout
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Received retry #1 request from slack due to http_timeout
+Received retry #2 request from slack due to http_timeout
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Failed to run custom action 'action_match_news'. Action server responded with a non 200 status code of 404. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 404 Client Error: Not Found for url: http://e3d2d905.ngrok.io/webhook
+Encountered an exception while running action 'action_match_news'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Failed to run custom action 'action_match_news'. Action server responded with a non 200 status code of 404. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 404 Client Error: Not Found for url: http://e3d2d905.ngrok.io/webhook
+Encountered an exception while running action 'action_match_news'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Failed to run custom action 'action_match_news'. Action server responded with a non 200 status code of 404. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 404 Client Error: Not Found for url: http://e3d2d905.ngrok.io/webhook
+Encountered an exception while running action 'action_match_news'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to run custom action 'action_match_news'. Action server responded with a non 200 status code of 404. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 404 Client Error: Not Found for url: http://e3d2d905.ngrok.io/webhook
+Encountered an exception while running action 'action_match_news'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
