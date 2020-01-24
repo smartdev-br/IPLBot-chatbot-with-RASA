@@ -1,12 +1,6 @@
-actions:
-- utter_greet
-- utter_did_that_help
-- utter_goodbye
-- action_match_news
-- utter_default
-- utter_gratitude
-- utter_ask_again
-
+session_config:
+  session_expiration_time: 0.0
+  carry_over_slots_to_new_session: true
 intents:
 - goodbye
 - greet
@@ -15,20 +9,27 @@ intents:
 - deny
 - current_matches
 - affirm or thanks
-
 templates:
   utter_greet:
-  - text: "Hey! What can I do for you?"
+  - text: Hey! What can I do for you?
   utter_did_that_help:
-  - text: "Did that help you?"
-  - text: "I hope that solved your query"
+  - text: Did that help you?
+  - text: I hope that solved your query
   utter_goodbye:
-  - text: "Bye"
+  - text: Bye
   utter_default:
-  - text: "I am sorry, I didn't get that. Could you please repeat your query?"
-  - text: "I am not sure what you are aiming for."
+  - text: I am sorry, I didn't get that. Could you please repeat your query?
+  - text: I am not sure what you are aiming for.
   utter_gratitude:
   - text: "Glad that I could be of help to you!\nBye"
   utter_ask_again:
-  - text: "Okay! Let's start again, please tell me what do you need?"
+  - text: Okay! Let's start again, please tell me what do you need?
   - text: "No issues! Let's try this again.\n Please repeat your query?"
+actions:
+- utter_greet
+- utter_did_that_help
+- utter_goodbye
+- action_match_news
+- utter_default
+- utter_gratitude
+- utter_ask_again
