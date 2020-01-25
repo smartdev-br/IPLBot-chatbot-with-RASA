@@ -39,3 +39,4 @@ class ApiAction(Action):
 			out_message = "O servidor retornou o seguinte erro:\n{}".format(res.status_code)
 			dispatcher.utter_message(out_message)
 		return []
+		

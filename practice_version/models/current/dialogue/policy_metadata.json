@@ -22,11 +22,7 @@
     "rasa_core.policies.fallback.FallbackPolicy",
     "rasa_core.policies.memoization.MemoizationPolicy"
   ],
-<<<<<<< HEAD
-  "trained_at": "20200123-204416",
-=======
-  "trained_at": "20200119-211223",
->>>>>>> 76af8ca7204226289400cf73a9995e58f5dd6255
+  "trained_at": "20200125-151256",
   "rasa_core": "0.13.8",
   "tensorflow": "1.12.0",
   "sklearn": "0.20.2"

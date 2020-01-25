@@ -1,5 +1,5 @@
 language: "en"
-#pipeline: "spacy_sklearn"
+# pipeline: "spacy_sklearn"
 pipeline:
 - name: "nlp_spacy"
 - name: "tokenizer_spacy"
