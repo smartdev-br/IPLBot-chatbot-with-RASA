@@ -1,4 +1,0 @@
-action_endpoint:
-  url: "http://localhost:5055/webhook"
-  # url: "http://e3d2d905.ngrok.io/webhook"
-  
