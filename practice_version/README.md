@@ -4,8 +4,9 @@ This is the **Practice Version** which means that you will find much of the code
 
 ## Setup and installation
 
-**Important**
-In the complete instalation, you had pre-configurated the comand:
+**Important**\n
+* This is the *second* virtual environment. To the *first one*, see the complete manual.
+* In the complete instalation, you had pre-configurated the comand:
 ```
 conda create -n rasa python=3.6
 conda activate rasa
