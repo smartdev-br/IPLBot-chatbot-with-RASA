@@ -14,8 +14,6 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade "pip<20"
-      # python -m pip install -r requirements.txt
-      # pip install rasa
         pip install rasa-x --extra-index-url https://pypi.rasa.com/simple
         pip install pytablewriter==0.46.1
     - name: Cross-validate NLU model
