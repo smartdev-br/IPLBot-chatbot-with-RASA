@@ -1,6 +1,5 @@
 name: Build and Deploy
-on: 
-  [push]:
+on: [push]
     branches:
       - Github-Actions-Workflow-to-comment-on-a-RASA-repo
 
