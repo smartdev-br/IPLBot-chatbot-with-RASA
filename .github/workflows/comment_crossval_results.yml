@@ -18,7 +18,7 @@ jobs:
         pip install pytablewriter==0.46.1
     - name: Cross-validate NLU model
       run: |
-        rasa test nlu -f 5 --cross-validation
+        rasa test nlu --nlu ./practice_version/data/ -f 5 --cross-validation
         python format_results.py
     - name: post cross-val results to PR
       uses: amn41/comment-on-pr@comment-file-contents
