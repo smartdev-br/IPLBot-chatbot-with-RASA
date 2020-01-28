@@ -2,7 +2,7 @@ name: Build and Deploy
 on: 
   push:
     branches:
-      - Github-Actions-Workflow-to-comment-on-a-RASA-repo
+      - "Github-Actions-Workflow-to-comment-on-a-RASA-repo"
 
 jobs:
   build-model:
