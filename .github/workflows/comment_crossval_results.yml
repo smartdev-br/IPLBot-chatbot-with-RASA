@@ -7,7 +7,7 @@ on:
 jobs:
   build-model:
     name: Build and upload model
-  # runs-on: ubuntu-latest  # roda no git-hub
+    # runs-on: ubuntu-latest  # roda no git-hub
     runs-on: self-hosted    # roda local
     steps:
     - uses: actions/checkout@v1
