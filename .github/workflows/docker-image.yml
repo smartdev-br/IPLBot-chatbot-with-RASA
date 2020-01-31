@@ -1,0 +1,17 @@
+name: Docker Image CI
+
+on: # [push]
+  push:
+    branches:
+      - Github-Actions-Workflow-to-comment-on-a-RASA-repo
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Build the Docker image
+      run: docker build . --file Dockerfile --tag iplbot-chatbot-with-rasa:$(date +%s)
