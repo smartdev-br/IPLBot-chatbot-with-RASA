@@ -1,0 +1,32 @@
+name: Build and Deploy
+on: 
+  push:
+    branches:
+      - XXX-Github-Actions-Workflow-to-comment-on-a-RASA-repo
+
+jobs:
+  build-model:
+    name: Build and upload model
+    runs-on: ubuntu-latest  # roda no git-hub
+    # runs-on: self-hosted    # roda local
+    steps:
+    - uses: actions/checkout@v1
+    - name: Set up Python 3.7
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.7
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade "pip<20"
+        pip install rasa-x --extra-index-url https://pypi.rasa.com/simple
+    #- name: Cross-validate NLU model
+    #  run: |
+    #    rasa test nlu --nlu ./practice_version/data/ --config ./practice_version/ -f 5 --cross-validation
+    #    python ./practice_version/format_results.py
+    - name: post cross-val results to PR
+      uses: amn41/comment-on-pr@comment-file-contents
+      if: github.event_name == 'pull_request'
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        msg: echo "initial environment" > results.md
