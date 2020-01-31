@@ -1,8 +1,8 @@
-name: Build and Deploy
+name: initial Environment
 on: 
   push:
     branches:
-      - XXX-Github-Actions-Workflow-to-comment-on-a-RASA-repo
+      - Github-Actions-Workflow-to-comment-on-a-RASA-repo
 
 jobs:
   build-model:
@@ -23,7 +23,7 @@ jobs:
     #  run: |
     #    rasa test nlu --nlu ./practice_version/data/ --config ./practice_version/ -f 5 --cross-validation
     #    python ./practice_version/format_results.py
-    - name: post cross-val results to PR
+    - name: post results to PR
       uses: amn41/comment-on-pr@comment-file-contents
       if: github.event_name == 'pull_request'
       env:
