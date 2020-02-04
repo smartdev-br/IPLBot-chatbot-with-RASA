@@ -31,7 +31,7 @@ class ApiAction(Action):
 			out_message = "Here some IPL quick info:\n1.The match between {} and {} was recently held".format(recent_match["team-1"], recent_match["team-2"])
 
 			if recent_match["type"] != "":
-				out_message += " and {} won.".format(recent_match["toss_winner_team"])
+				out_message += " and the toss winner team was: {}.".format(recent_match["toss_winner_team"])
 			else:
 				out_message += "."
 			
