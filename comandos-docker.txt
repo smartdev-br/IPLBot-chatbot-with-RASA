@@ -1,0 +1,3 @@
+# comandos docker
+sudo docker build -t="iplbot-rasa" .    #construir imagem com dockerfile
+sudo docker run -it iplbot-rasa /bin/sh  #utilizar container docker em modo interativo
