@@ -51,13 +51,12 @@ RUN make train-core
 #CMD make cmdline 
 
 # instruções para uso
-CMD ["echo", "comece com os comandos:"]
-#CMD ["echo", "make train-nlu"]
-#CMD ["echo", "make train-core"]
-CMD ["echo", "make action-server &"]
-CMD ["echo", "make cmdline"]
+CMD ["/bin/bash", "echo", "*** comece com os comandos:"]
+CMD ["/bin/bash", "echo", "make train-nlu"]
+CMD ["/bin/bash", "echo", "make train-core"]
+CMD ["/bin/bash", "echo", "make action-server &"]
+CMD ["/bin/bash", "echo", "make cmdline"]
 
-CMD ["/bin/bash"]
 
 
 
