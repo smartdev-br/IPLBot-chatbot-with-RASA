@@ -12,8 +12,8 @@ WORKDIR practice_version
 
 # preparar ambiente
 RUN apt-get update
+#RUN apt-get install -y apt-utils
 RUN apt-get install -y wget
-RUN apt-get install -y apt-utils
 RUN apt-get install -y python3-dev python3-pip 
 RUN apt-get install -y virtualenv
 RUN virtualenv --python='/usr/bin/python3.6' ENV
@@ -29,7 +29,7 @@ RUN pip3 install rasa-x --extra-index-url https://pypi.rasa.com/simple
 #RUN conda activate rasa
 
 RUN pip3 install -r requirements.txt
-RUN pip3 install -y tornado
+RUN pip3 install tornado
 RUN pip3 install -U spacy
 RUN python3 -m spacy download en
 
@@ -38,17 +38,28 @@ RUN python3 -m spacy download en
 #EXPOSE 5055   #action server
 
 #treinar o rasa
-CMD ["make", "train-nlu"]
-CMD ["make", "train-core"]
+RUN make train-nlu
+RUN make train-core
 
 #colocar o action-server em 2o plano
 #verificar jobs: use comando "jobs"
 #enviar comando para 1o plano = fg %1 por exemplo
 #enviar comando para 2o plano = bg %1 por exemplo
-CMD ["make", "action-server", "&"] 
+#CMD make action-server & 
 
-#chamar o cmdline - conversa como iplbot-rasa
-CMD ["make", "cmdline"]    
+#chamar o cmdline - conversa com o iplbot-rasa
+#CMD make cmdline 
+
+# instruções para uso
+CMD ["echo", "comece com os comandos:"]
+#CMD ["echo", "make train-nlu"]
+#CMD ["echo", "make train-core"]
+CMD ["echo", "make action-server &"]
+CMD ["echo", "make cmdline"]
+
+CMD ["/bin/bash"]
+
+
 
 #####################################
 

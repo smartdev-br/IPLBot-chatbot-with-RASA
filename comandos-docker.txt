@@ -1,3 +1,11 @@
 # comandos docker
 sudo docker build -t="iplbot-rasa" .    #construir imagem com dockerfile
-sudo docker run -it iplbot-rasa /bin/sh  #utilizar container docker em modo interativo
+sudo docker run -it iplbot-rasa /bin/sh  #utilizar container docker em modo interativo OU
+sudo docker run -it iplbot-rasa /bin/bash
+sudo docker run -d -p 5005:5005 iplbot-rasa #utilizar container docker em um navegador
+
+Para ver as imagens pendentes use o comando abaixo:
+docker images -f dangling=true
+
+Para deletar ou remover as imagens pendentes, use:
+docker images purge
