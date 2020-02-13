@@ -9,3 +9,9 @@ docker images -f dangling=true
 
 Para deletar ou remover as imagens pendentes, use:
 docker images purge
+
+colocar tag no repositorio local
+docker tag local-image:tagname username/new-repo:tagname
+
+push no repositorio remoto
+docker push username/new-repo:tagname

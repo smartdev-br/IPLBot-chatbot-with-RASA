@@ -57,7 +57,7 @@ CMD ["/bin/bash", "echo", "make train-core"]
 CMD ["/bin/bash", "echo", "make action-server &"]
 CMD ["/bin/bash", "echo", "make cmdline"]
 
-
+CMD ["/bin/bash"]
 
 
 #####################################
