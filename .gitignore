@@ -2,7 +2,4 @@
 /practice_version/rasa_core.log
 __pycache__
 ENV
-<<<<<<< HEAD
 actions-runner/
-=======
->>>>>>> smartdev-fork-iplbot/master
