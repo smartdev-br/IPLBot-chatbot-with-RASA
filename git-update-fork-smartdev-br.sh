@@ -16,13 +16,13 @@ git checkout master
 # que não estão no projeto original apareçam, e que os seus
 # commits fiquem no topo da lista:
 
-#git rebase smartdev-fork-iplbot/master
+git rebase smartdev-fork-iplbot/master
 
 # Se você não quiser reescrever o histórico do seu branch master
 # (talvez porque alguém já o tenha clonado) então você deve
 # substituir o último comando por um
 
-git merge smartdev-fork-iplbot/master
+#git merge smartdev-fork-iplbot/master
 
 # No entanto, para fazer com que futuros pull requests fiquem o mais
 # limpos possível, é uma boa ideia fazer o rebase.
@@ -31,7 +31,7 @@ git merge smartdev-fork-iplbot/master
 # você precise forçar um push para o seu próprio repositório do Github.
 # Você pode fazer isso com:
 
-#git push -f origin master
+git push -f origin master
 
 # VocÊ vai precisar fazer isso com o -f apenas na primeira vez que você
 # faz um rebase.
