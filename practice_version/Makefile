@@ -34,6 +34,7 @@ clean:
 	rm -rf docs/_build
 
 train-nlu:
+<<<<<<< HEAD
 	python3 -m rasa_nlu.train -c nlu_config.yml --data data/nlu_data.md -o models --fixed_model_name nlu --project current --verbose
 	
 train-core:
@@ -47,13 +48,32 @@ action-server:
 	
 graph:
 	python3 -m rasa_core.visualize -d domain.yml -s data/stories.md -o graph.html
+=======
+	python -m rasa_nlu.train -c nlu_config.yml --data data/nlu_data.md -o models --fixed_model_name nlu --project current --verbose
+	
+train-core:
+	python -m rasa_core.train -d domain.yml -s data/stories.md -o models/current/dialogue -c policies.yml
+
+cmdline:
+	python -m rasa_core.run -d models/current/dialogue -u models/current/nlu --endpoints endpoints.yml
+	
+action-server:
+	python -m rasa_core_sdk.endpoint --actions actions
+	
+graph:
+	python -m rasa_core.visualize -d domain.yml -s data/stories.md -o graph.html
+>>>>>>> smartdev-fork-iplbot/master
 
 ngrok-slack:
 	./ngrok http 5055
 	# ./ngrok http -subdomain=slack-connect 5055
 
 deploy-rasa-chatbot:
+<<<<<<< HEAD
 	python3 -m rasa_core.run -d models/current/dialogue -u models/current/nlu --port 5002 --connector slack --credentials slack_credentials.yml --endpoints endpoints.yml
+=======
+	python -m rasa_core.run -d models/current/dialogue -u models/current/nlu --port 5002 --connector slack --credentials slack_credentials.yml --endpoints endpoints.yml
+>>>>>>> smartdev-fork-iplbot/master
 
 ngrok-rasa:
 	# ./ngrok http 5002
