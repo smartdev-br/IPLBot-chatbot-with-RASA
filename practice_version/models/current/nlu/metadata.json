@@ -77,10 +77,6 @@
         }
     ],
     "training_data": "training_data.json",
-<<<<<<< HEAD
     "trained_at": "20200212-123220",
-=======
-    "trained_at": "20200125-151239",
->>>>>>> smartdev-fork-iplbot/master
     "rasa_nlu_version": "0.14.6"
 }
