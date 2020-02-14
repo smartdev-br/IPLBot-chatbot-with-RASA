@@ -12,11 +12,7 @@
 
 action_endpoint:
   url: "http://localhost:5055/webhook"
-<<<<<<< HEAD
   # url: "http://e3d2d905.ngrok.io/webhook"
-=======
-  # url: "http://e3d2d905.ngrok.io/webhook"ebhook"
->>>>>>> smartdev-fork-iplbot/master
 
 # Tracker store which is used to store the conversations.
 # By default the conversations are stored in memory.
