@@ -28,7 +28,6 @@ class ApiAction(Action):
 			upcoming_match["date"] = datetime.strptime(upcoming_match["date"], "%Y-%m-%dT%H:%M:%S.%fZ")
 			next_date = upcoming_match["date"].strftime("%d %B %Y")
 
-<<<<<<< HEAD
 			out_message = "Here some IPL quick info:\n1.The match between {} and {} was recently held".format(recent_match["team-1"], recent_match["team-2"])
 
 			if recent_match["type"] != "":
@@ -39,14 +38,6 @@ class ApiAction(Action):
 			dispatcher.utter_message(out_message)
 
 			out_message = "2.The next match is {} vs {} on {}".format(upcoming_match["team-1"], upcoming_match["team-2"], next_date)
-=======
-			out_message = "Here some IPL quick info:\n1.The match between {} and {} was recently held and {} won.".format(recent_match["team-1"], recent_match["team-2"], recent_match["toss_winner_team"])
-
-			dispatcher.utter_message(out_message)
-
-			out_message = "2.The next match is {} vs {} on {}".format(upcoming_match["team-1"], upcoming_match["team-2"], next_date)
-
->>>>>>> smartdev-fork-iplbot/master
 			dispatcher.utter_message(out_message)
 		else:
 			out_message = "O servidor retornou o seguinte erro:\n{}".format(res.status_code)
