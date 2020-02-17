@@ -45,29 +45,19 @@ RUN make train-core
 #verificar jobs: use comando "jobs"
 #enviar comando para 1o plano = fg %1 por exemplo
 #enviar comando para 2o plano = bg %1 por exemplo
-#CMD make action-server & 
+#RUN make action-server & 
 
 #chamar o cmdline - conversa com o iplbot-rasa
-#CMD make cmdline 
+#RUN make cmdline 
 
 # instruções para uso
-CMD ["/bin/bash", "echo", "*** comece com os comandos:"]
-CMD ["/bin/bash", "echo", "make train-nlu"]
-CMD ["/bin/bash", "echo", "make train-core"]
-CMD ["/bin/bash", "echo", "make action-server &"]
-CMD ["/bin/bash", "echo", "make cmdline"]
+#COPY ./docker-entrypoint.sh /iplbot/docker-entrypoint.sh
+#RUN chmod +x /iplbot/docker-entrypoint.sh
+#ENTRYPOINT["/iplbot/docker-entrypoint.sh"]
+#CMD["--help"]
 
-CMD ["/bin/bash"]
-
-
-#####################################
-
-#RUN apt-get install -y apache2-utils
-#RUN apt-get clean
-#EXPOSE 80
-#CMD ["apache2ctl","-D", "FOREGROUND"]
-
-#ENTRYPOINT ["/iplbot"]
-
-#CMD ["ls","-la"]
-#CMD ["echo","Terminou"]
+CMD echo "** comece com os comandos\n \
+         make train-nlu\n \
+         make train-core\n \
+         make action-server &\n \
+         make cmdline"

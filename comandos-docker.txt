@@ -4,14 +4,35 @@ sudo docker run -it iplbot-rasa /bin/sh  #utilizar container docker em modo inte
 sudo docker run -it iplbot-rasa /bin/bash
 sudo docker run -d -p 5005:5005 iplbot-rasa #utilizar container docker em um navegador
 
-Para ver as imagens pendentes use o comando abaixo:
+
+# varios comandos no mesmo container
+# inicia o terminal 1
+docker container run --name iplbot1 -it teste-iplbot-rasa /bin/bash
+# inicia o terminal 2
+docker container exec -it iplbot1 /bin/bash
+
+#Para ver as imagens pendentes use o comando abaixo:
 docker images -f dangling=true
 
-Para deletar ou remover as imagens pendentes, use:
+#Para deletar ou remover as imagens pendentes, use:
 docker images purge
 
-colocar tag no repositorio local
+#colocar tag no repositorio local
 docker tag local-image:tagname username/new-repo:tagname
 
-push no repositorio remoto
+#push no repositorio remoto
 docker push username/new-repo:tagname
+
+#verificar e apagar imagens cujo campo repository esteja como <none>
+docker images -a | grep none | awk '{print $3}' | xargs docker rmi  # OU
+docker rmi $(docker images -a | grep "<none>" | awk '{print $3}')
+
+# verificar e apagar containeres que estão com processos ativos no docker e seguem um padrão, no caso "/bin"
+docker ps -a | grep "/bin" | awk '{print $1}' | xargs docker rm
+
+#apos alterar o container, efetuamos o commit desse container em uma image:
+#use docker run .... para rodar o container; 
+#modifique o container e ai sim, rode o comando abaixo:
+docker container commit <containder_id> <novocontainer:tag>
+
+
